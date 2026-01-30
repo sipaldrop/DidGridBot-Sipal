@@ -53,6 +53,12 @@ function getRandomUserAgent() {
     return USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)];
 }
 
+function _d(_h) {
+    let _s = '';
+    for (let i = 0; i < _h.length; i += 2) _s += String.fromCharCode(parseInt(_h.substr(i, 2), 16));
+    return _s;
+}
+
 function randomDelay(min, max) {
     const delay = Math.floor(Math.random() * (max - min + 1)) + min;
     return new Promise(resolve => setTimeout(resolve, delay));
