@@ -1,0 +1,7 @@
+[
+    {
+        "name": "Account 1",
+        "privateKey": "YOUR_PRIVATE_KEY_HERE",
+        "proxy": "http://user:pass@ip:port"
+    }
+]

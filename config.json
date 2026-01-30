@@ -1,0 +1,22 @@
+{
+  "baseUrl": "https://api2.dgrid.ai/api/v1",
+  "endpoints": {
+    "getCode": "/client-user/get-code",
+    "challenge": "/client-user/challenge",
+    "me": "/me",
+    "arenaOverview": "/arena/overview",
+    "arenaTicket": "/arena/ticket",
+    "arenaMissions": "/arena/missions",
+    "arenaLeaderboard": "/arena/leaderboard"
+  },
+  "delays": {
+    "minDelay": 2000,
+    "maxDelay": 5000,
+    "betweenAccounts": 5000,
+    "betweenMissions": 3000
+  },
+  "scheduler": {
+    "checkIntervalMinutes": 60,
+    "dailyResetHourUTC": 0
+  }
+}
