@@ -64,11 +64,14 @@ Kamu perlu membuat file untuk menyimpan data akunmu.
 
 ```json
 [
-    {
-        "name": "Account 1",
-        "privateKey": "YOUR_PRIVATE_KEY_HERE",
-        "proxy": "http://user:pass@ip:port"
-    }
+    "2captcha_key": "YOUR_2CAPTCHA_API_KEY_HERE",
+    "accounts": [
+        {
+            "name": "Account 1",
+            "privateKey": "YOUR_PRIVATE_KEY_HERE",
+            "proxy": "http://user:pass@host:port"
+        }
+    ]
 ]
 ```
 > **Catatan:**
